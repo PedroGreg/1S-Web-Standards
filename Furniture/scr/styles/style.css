@@ -25,6 +25,11 @@ nav{
     gap: 75px;
 }
 
+nav>a{
+    color: #000000;
+}
+
+
 .account-buttons{
     display: flex;
     gap: 45px;
