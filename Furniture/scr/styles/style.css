@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    background: none;
+    border: none;
+}
+
+:root{
+    --bg-color: #FFF3E3
+} 
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    border: 1px dashed #000000;
+}
+
+nav{
+    display: flex;
+    gap: 75px;
+}
+
+.account-buttons{
+    display: flex;
+    gap: 45px;
+}
