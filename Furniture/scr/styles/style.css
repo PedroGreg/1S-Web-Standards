@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     box-sizing: border-box;
     padding: 0px;
@@ -5,6 +6,7 @@
     text-decoration: none;
     background: none;
     border: none;
+    font-family: "Poppins", sans-serif;
 }
 
 :root{
@@ -27,7 +29,7 @@ nav{
     gap: 75px;
 }
 
-nav>a{
+nav > a{
     color: #000000;
 }
 
@@ -44,37 +46,36 @@ main{
     background-image: url(/scr/images/hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    justify-content: right;
+    justify-content: end;
 }
 
 aside{
     padding: 60px 40px 40px 40px;
-    color: #333333;
-    display: grid;
     background-color: var(--bg-color);
     margin: 10% 9% 0px 5%;
     border: 1px solid black;
     height: 443px;
     width: 643px;
-    align-content: space-between;
 }
 
-aside>h1{
+aside > span{
+    color: #333333;
+    font-size: 16px;
+}
+aside > h2{
     color: var(--text-color);
-    font-size: 250%;
+    font-size: 52px;
     font-weight: bold;
+    margin-top: 4px;
+}
+aside > p{
+    color: #333333;
+    font-size: 18px;
+    margin-top: 4px;
 }
 
-aside>button{
-    color: var(--text-color);
+aside > button {
+    padding: 25px 42px;
     background-color: var(--text-color);
-    width: 220px;
-    height: 70px;
-}
-
-aside>button>a{
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    font-size: 150%;
+    margin-top: 46px;
 }
