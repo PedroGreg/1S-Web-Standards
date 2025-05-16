@@ -43,7 +43,7 @@ main{
     display: flex;
     width: 100%     ;
     height: 100vh;
-    background-image: url(/scr/images/hero.jpg);
+    background-image: url(/Furniture/scr/images/hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: end;
@@ -78,4 +78,44 @@ aside > button {
     padding: 25px 42px;
     background-color: var(--text-color);
     margin-top: 46px;
+}
+
+.category-rooms-container {
+    display: grid;
+    padding-top: 60px;
+    justify-items: center;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.category-rooms-container h3{
+    size: 32px;
+    color: #333333;
+}
+
+.category-rooms-container p{
+    size: 20px;
+    color: #666666;
+}
+
+
+.category-card-group {
+    margin-top: 65px;
+    display: flex;
+    gap: 20px;
+}
+
+.category-card img {
+    height: 480px;
+    width: 380px;
+}
+
+.category-card{
+    display: grid;
+    justify-items: center;
+    font-size: 24px;
+}
+
+.category-card p{
+    color:#333333;
 }
